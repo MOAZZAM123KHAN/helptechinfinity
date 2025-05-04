@@ -229,12 +229,12 @@ export const ContactForm = () => {
             </div>
             <div>
               <div className="font-semibold">WhatsApp</div>
-              <div className="text-sm">+1 (234) 567-890</div>
+              <div className="text-sm">+91 9651497211</div>
             </div>
           </a>
           
           <a
-            href="https://t.me/digitaledge"
+            href="https://t.me/helpinfinite"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-3 p-4 bg-blue-500/10 hover:bg-blue-500/20 text-blue-700 rounded-lg transition-all duration-300"
@@ -244,7 +244,7 @@ export const ContactForm = () => {
             </div>
             <div>
               <div className="font-semibold">Telegram</div>
-              <div className="text-sm">@digitaledge</div>
+              <div className="text-sm">@helpinfinite</div>
             </div>
           </a>
         </div>
