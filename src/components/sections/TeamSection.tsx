@@ -10,7 +10,7 @@ import { useIsMobile } from "@/hooks/use-mobile";
 const TeamHeadingFallback = () => {
   return (
     <motion.h2 
-      className="text-3xl md:text-4xl font-bold text-center text-white my-4 bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent"
+      className="text-3xl md:text-4xl font-bold text-center text-Bolue my-4 bg-gradient-to-r from-purple-400 to-purple-600 bg-clip-text text-transparent"
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       transition={{ duration: 0.5 }}
@@ -44,19 +44,19 @@ export const TeamSection = () => {
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-10 mt-8 md:mt-12">
           <TeamMember
-            name="John Smith"
+            name="Mohammad Wakeel"
             role="Lead Developer"
-            image="/photo-1605810230434-7631ac76ec81"
+            image="\Team\1702490806822.jpg"
             delay={0.1}
-            bio="John is our lead developer with over 8 years of experience in building scalable web applications. He specializes in frontend architecture and has led multiple successful projects."
+            bio="Mohammad Wakeel is our lead developer with over 8 years of experience in building scalable web applications. He specializes in frontend architecture and has led multiple successful projects."
             skills={["JavaScript", "React", "Node.js", "System Architecture"]}
             experience="8+ years in full-stack development"
-            email="john.smith@example.com"
+            //email="john.smith@example.com"
           />
            <TeamMember
             name="Mo Moazzam Khan"
             role="Full-Stack Developer"
-            image="/photo-1605810230434-7631ac76ec81"
+            image="\Team\moazzam.png"
             delay={0.1}
             bio=" Mo Moazzam is our Full-Stack Developer with over 2+ years of experience in building scalable web applications. He specializes in frontend architecture and has led multiple successful projects."
             skills={["html","CSS","JavaScript", "React", "Node.js", "System Architecture" , "NextJS " ," GraphQL", "MongoDB" ," AWS", "Docker"]}
@@ -65,8 +65,8 @@ export const TeamSection = () => {
           />
           <TeamMember
             name="Aasif Ali"
-            role="UI/UX Designer"
-            image="/photo-1519389950473-47ba0277781c"
+            role="Backend Developer"
+            image="\Team\asif.jpg"
             delay={0.2}
             bio="Asif has a As a seasoned Backend Java Developer, I weave intricate solutions from threads of code, crafting scalable, efficient, and robust systems that power digital innovation. With expertise in Java, Spring, and cloud technologies, I help businesses thrive in the digital landscape."
             skills={["Java | SpringBoot & Microservices | Restful Web Services | Hibernate & JPA | Junit & Mokito | Tomcat Deployment | Apache Kafka | MySQL | MongoDB | GitHub"]}
@@ -74,19 +74,19 @@ export const TeamSection = () => {
             // email="sarah.johnson@example.com"
           />
           <TeamMember
-            name="Sarthak RAj"
+            name="Mohammad Danish"
             role="Project Manager"
             image="/photo-1581092795360-fd1ca04f0952"
             delay={0.3}
-            bio="Mike ensures our projects are delivered on time and within scope. With his strategic planning and team coordination skills, he keeps the development process smooth and efficient."
+            bio="Mohammad Danish ensures our projects are delivered on time and within scope. With his strategic planning and team coordination skills, he keeps the development process smooth and efficient."
             skills={["Agile Methodology", "Team Leadership", "Strategic Planning"]}
             experience="7+ years in project management"
-            email="mike.wilson@example.com"
+            //email="mike.wilson@example.com"
           />
            <TeamMember
-            name="Sarthak RAj"
+            name="Sarthak Raj"
             role="Data Engeenior"
-            image="/photo-1581092795360-fd1ca04f0952"
+            image="\Team\sarthak.jpg"
             delay={0.3}
             bio=" Enthusiastic Data Engineer Trainee specializing in ETL, Informatica, SQL, and seamless data migration. 💼 Open to networking and exploring opportunities in data engineering. 💡 Passionate about optimizing workflows and staying ahead of industry trends. Let's connect and explore the endless possibilities of data together"
             skills={["Data Scrapping ", "Python", "AWS","Extract Transform Load (ETL)","Data Leak"]}

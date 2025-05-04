@@ -10,7 +10,7 @@ export const Footer = () => {
   return (
     <footer className="bg-black text-white py-12 md:py-20">
       <div className="max-w-7xl mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 md:mb-16">Get in touch with DigitalEdge</h2>
+        <h2 className="text-3xl md:text-4xl font-bold text-center mb-10 md:mb-16">Get in touch with help infinite</h2>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 md:gap-12 mb-12 md:mb-16">
           {/* Services Column */}
@@ -75,10 +75,10 @@ export const Footer = () => {
         </div>
 
         <div className="mt-12 md:mt-20 pt-6 md:pt-8 border-t border-gray-800 rounded-t-3xl bg-white/5 flex flex-col md:flex-row justify-between items-center px-4 md:px-8">
-          <div className="font-bold text-xl md:text-2xl mb-4 md:mb-0">DigitalEdge</div>
+          <div className="font-bold text-xl md:text-2xl mb-4 md:mb-0">help infinite</div>
           <div className="flex items-center">
             <Globe className="w-4 h-4 md:w-5 md:h-5 mr-2" />
-            <span>DIGITALEDGE.COM</span>
+            <span>helpinfinite.com</span>
           </div>
         </div>
       </div>

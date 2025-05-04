@@ -132,7 +132,7 @@ export const PortfolioSection = () => {
   };
 
   return (
-    <section id="portfolio" className="py-20 px-4 bg-gradient-to-b from-white to-gray-50 overflow-hidden">
+    <section id="portfolio" className="py-20 px-4 bg-gradient-to-b from-blue to-gray-50 overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <div className="mb-12">
           <PortfolioHeadingFallback />
